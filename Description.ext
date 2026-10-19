@@ -1,2 +1,21 @@
 enableDebugConsole = 1;
 respawnOnStart = 0;
+
+class CfgSounds
+{
+    sounds[] = {};
+
+    class MyMusicSound
+    {
+        name = "MyMusicSound";
+        sound[] = {"sounds\radio_music.ogg", 1, 1, 25};
+        titles[] = {};
+    };
+
+    class Song_2
+    {
+        name = "Song_2";
+        sound[] = {"sounds\song_2.ogg", 1, 1, 25};
+        titles[] = {};
+    };
+};
